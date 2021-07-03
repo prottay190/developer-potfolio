@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.name-color{
+    color: orange;
+}
+.my-portfolio{
+    display: flex;
+    padding-top: 25px;
+}
+.my-portfolio-content{
+    width: 50%;
+    padding-left: 25px;
+}
+.my-portfolio-content h1{
+    margin-top: 20px;
+}
+.my-portfolio-content h3{
+    font-size: 25px;
+    color: #6278df;
+    margin-top: 22px;
+}
+.my-portfolio-content p{
+    font-size: 26px;
+    color: #767676;
+    line-height: 1.7em;
+    margin-top: 14px;
+
+}
+.my-portfolio-img img{
+    width: 82%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: #fff;
+    padding: 13px 30px;
+    display: inline-block;
+    font-size: 28px;
+    margin-top: 18px;
+    border-radius: 10px;
+}
