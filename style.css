@@ -2,11 +2,12 @@
     padding: 0;
     margin: 0;
 }
+/* portfolio-section */
 body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 40px;
+    font-size: 36px;
 }
 .name-color{
     color: orange;
@@ -14,10 +15,12 @@ h1{
 .my-portfolio{
     display: flex;
     padding-top: 25px;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .my-portfolio-content{
     width: 50%;
-    padding-left: 25px;
+    padding-left: 40px;
 }
 .my-portfolio-content h1{
     margin-top: 20px;
@@ -41,7 +44,7 @@ h1{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     color: #fff;
-    padding: 13px 30px;
+    padding: 12px 30px;
     display: inline-block;
     font-size: 28px;
     margin-top: 18px;
